@@ -1,0 +1,29 @@
+kernelcookies - fortune datafile of kernel citations
+
+NOTE: Some of the cookies may contain offensive language.
+As I don't really want to decide on what someone might find
+offensive or not and create two seperate files, I only
+put this warning here. If you don't want offensive fortunes,
+you'll have to weed this file out yourself.
+
+This is Version 7 of the Kernel cookie file. It contains some of 
+the more obscure kernel messages in the Linux Kernel. One of the 
+most famous messages ("lp1 on fire") was part of the linuxcookies 
+data file (and got me started on this compilation). 
+
+Hunting these messages is a tedious task: There's little more
+chance than issuing:
+/usr/src/linux $ find . -name \*.[c|h]|xargs grep -i printk|more
+
+("printk" may be replaced by "panic" or "penguins" or any other
+word you're looking for)
+
+Therefore, I am greatful if anyone submits further messages of said
+kind (please include source file name and kernel version).
+
+If you need to recreate the .dat file (it's the index), you can
+use strfile(1) which is included in the fortune distribution.
+
+Have fun with the file,
+Tobias
+<klausman@tuts.net>
