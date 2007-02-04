@@ -6,7 +6,7 @@ offensive or not and create two seperate files, I only
 put this warning here. If you don't want offensive fortunes,
 you'll have to weed this file out yourself.
 
-This is Version 7 of the Kernel cookie file. It contains some of 
+This is Version 8 of the Kernel cookie file. It contains some of 
 the more obscure kernel messages in the Linux Kernel. One of the 
 most famous messages ("lp1 on fire") was part of the linuxcookies 
 data file (and got me started on this compilation). 
@@ -26,4 +26,4 @@ use strfile(1) which is included in the fortune distribution.
 
 Have fun with the file,
 Tobias
-<klausman@tuts.net>
+<klausman at schwarzvogel.de>

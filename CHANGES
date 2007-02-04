@@ -1,13 +1,21 @@
+Version 8 (20/Jun/2004)
+	Finally a new release after 2.5 years!
+	80 new, Total of 149.
+	All new cookies are from 2.6.6.
+	Note that the canonical site URL for this
+	package has changed to:
+	http://www.schwarzvogel.de/software-misc.shtml
+	Also, my email address has changed, see README file.
 Version 7 (3/Dec/2001):
-    3 new, Total of 69
+        3 new, Total of 69
 Version 6 (15/Jun/2001):
 	no changes in numbers, the tarfile has been 
-	restructurd and a deb is now available
+	restructured and a deb is now available
 Version 5 (26/Apr/2001):
 	10 new, Total of 66
 Version 5pre (9/Jan/2001):
 	2 new, Total of 56
-Version 4 (31/Jul/2k):
+Version 4 (31/Jul/2000):
 	Added info about strfile(1) to README
 	Announcement on Freshmeat got me some new cookies
 	15 new, Total of 54
