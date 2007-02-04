@@ -491,3 +491,72 @@ printk("CPU[%d]: Sending penguins to jail...",smp_processor_id());
  [... 20 lines ...]
 printk("CPU[%d]: Giving pardon to imprisoned penguins\n", smp_processor_id());
         linux-2.4.8/arch/sparc64/kernel/smp.c
+%
+/* Welcome to Sun Microsystems, can I take your order please? */
+/* Would you like fries with that? */
+/* Anything else? */
+/* Fifty-two cents is your change, have a nice day. */
+/* Would you like to try our SMCC Delux? */
+/* We have a special on GNU/Viking hardware bugs today. */
+/* Will that be all? */
+/* Don't forget your vik_1137125_wa.  Have a nice day. */
+/* We're consolidating our STB products, it's your lucky day. */
+/* Come back next week when we are "Sun Microelectronics". */
+/* Remember: "Different name, same old buggy as shit hardware." */
+	linux-2.6.6/drivers/net/sunhme.c
+%
+printk (KERN_INFO "NM256: Congratulations. You're not running Eunice.\n");
+	linux-2.6.19/sound/oss/nm256_audio.c
+%
+printk (KERN_ERR "NM256: Fire in the hole! Unknown status 0x%x\n", ...);
+	linux-2.6.19/sound/oss/nm256_audio.c
+%
+printk(KERN_DEBUG "adintr: Why?\n");
+	linux-2.6.19/sound/oss/ad1848.c
+%
+snd_printk(KERN_ERR "Unable to scan for card signature in video RAM\n");
+	linux-2.6.19/sound/pci/nm256/nm256.c
+	(Note what source file this is in -- Ed.)
+%
+printk("Pretending it's a 3/80, but very afraid...\n");
+	linux-2.6.19/arch/m68k/sun3x/prom.c
+%
+printk("IOP: oh my god, they killed the ISM IOP!\n");
+	linux-2.6.19/arch/m68k/mac/iop.c
+%
+fprintf (stderr, "Not ELF nor a.out. Don't blame me.\n");
+	linux-2.6.19/arch/sparc64/boot/piggyback.c
+%
+printk("starfire_translate: Are you kidding me?\n");
+	linux-2.6.19/arch/sparc64/kernel/starfire.c
+%
+raw_printk("Oops: bitten by watchdog\n");
+	linux-2.6.19/arch/cris/arch-v32/kernel/time.c
+%
+printk(KERN_CRIT "How did I get here?\n");
+	linux-2.6.19/arch/mips/kernel/syscall.c
+%
+printk(KERN_EMERG "This is not a software problem!\n");
+	linux-2.6.19/arch/x86_64/kernel/mce.c
+%
+prom_printf("No VAC. Get some bucks and buy a real computer.");
+	linux-2.6.19/arch/sparc/mm/sun4c.c
+%
+printk ("scsi%d : danger Will Robinson!\n", ...);
+	linux-2.6.19/drivers/scsi/53c7xx.c
+%
+printk("sim710.c irq nasty\n");
+	linux-2.6.19/drivers/scsi/sim710.c
+%
+/* if it speaks printer language, it's
+ * probably a printer */
+	linux-2.6.19/drivers/parport/probe.c
+%
+printk(KERN_ERR "BIGMAC: Would you like that for here or to go?\n");
+	linux-2.6.19/drivers/net/sunbmac.c
+%
+printk("%s: Boo!\n", dev->name);
+	linux-2.6.19/drivers/net/depca.c
+%
+
+
