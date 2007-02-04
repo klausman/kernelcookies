@@ -557,6 +557,3 @@ printk(KERN_ERR "BIGMAC: Would you like that for here or to go?\n");
 %
 printk("%s: Boo!\n", dev->name);
 	linux-2.6.19/drivers/net/depca.c
-%
-
-
