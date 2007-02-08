@@ -557,3 +557,28 @@ printk(KERN_ERR "BIGMAC: Would you like that for here or to go?\n");
 %
 printk("%s: Boo!\n", dev->name);
 	linux-2.6.19/drivers/net/depca.c
+%
+__adb_probe_task(struct work_struct *bullshit)
+	linux-2.6.20/drivers/macintosh/adb.c
+%
+printk(KERN_ERR "happy meal: Eieee, rx config register gets greasy fries.\n");
+	linux-2.6.19/drivers/net/sunhme.c
+%
+printk(KERN_ERR "happy meal: Transceiver BigMac ATTACK!");
+	linux-2.6.19/drivers/net/sunhme.c
+%
+printk(KERN_ERR "happy meal: Receiver BigMac ATTACK!");
+	linux-2.6.19/drivers/net/sunhme.c
+%
+printk(KERN_WARNING "GSCD: DMA kann ich noch nicht!\n");
+	linux-2.6.19/drivers/cdrom/gscd.c
+	(Do we have i18n'ed messages now? -- Ed.)
+%
+printk(KERN_ERR "i82092aa: Oops, you did something we didn't think of.\n");
+	linux-2.6.19/drivers/pcmcia/i82092.c
+%
+dprintk("NFSD: laundromat service - starting\n");
+	linux-2.6.19/fs/nfsd/nfs4state.c
+%
+printk("ip6t_hook: happy cracking.\n");
+	linux-2.6.19/net/ipv6/netfilter/ip6table_filter.c
