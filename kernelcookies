@@ -632,4 +632,15 @@ printk(KERN_WARNING PREFIX "Bastard SDC decided to reconfigure loop!\n");
 %
 printk(KERN_WARNING "Watchdog bite\n");
 	linux-4.15.0/arch/cris/arch-v32/kernel/time.c
-
+%
+if (pin_reg & BIT(INTERRUPT_MASK_OFF))
+        interrupt_mask = "😛";
+else
+        interrupt_mask = "😷";
+	linux-6.3.0/drivers/pinctrl/pinctrl-amd.c
+%
+if (pin_reg & BIT(INTERRUPT_MASK_OFF)) interrupt_mask = "😛";
+	linux-6.3.0/drivers/pinctrl/pinctrl-amd.c
+%
+interrupt_mask = "😷";
+	linux-6.3.0/drivers/pinctrl/pinctrl-amd.c
